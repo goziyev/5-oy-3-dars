@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#3498db), to(#2ecc71));
+  background: linear-gradient(to right, #3498db, #2ecc71);
+  /* Background gradasi */
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card .card-text {
+  position: relative;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.card .card-text h2 {
+  font-weight: bolder;
+  font-size: 131%;
+  background: -webkit-linear-gradient(blue, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.card .card-text p {
+  font-size: 20px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(red, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card .card-text button {
+  width: 100%;
+  bottom: -80px;
+  right: 0px;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, right top, from(#16a085), color-stop(51%, #f4d03f), to(#16a085));
+  background-image: linear-gradient(to right, #16a085 0%, #f4d03f 51%, #16a085 100%);
+  border: none;
+  margin: 80px auto;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  -webkit-box-shadow: 0 0 20px #eee;
+          box-shadow: 0 0 20px #eee;
+  display: block;
+  border-bottom-right-radius: 20px;
+}
+
+.card .card-text button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

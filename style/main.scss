@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2ecc71
+  ); /* Background gradasi */
+}
+.card {
+  display: flex;
+  img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .card-text {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    h2 {
+      font-weight: bolder;
+      font-size: 131%;
+      background: -webkit-linear-gradient(blue, green);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 700;
+      background: -webkit-linear-gradient(red, green);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    button {
+      width: 100%;
+      bottom: -80px;
+      right: 0px;
+      position: absolute;
+      background-image: linear-gradient(
+        to right,
+        #16a085 0%,
+        #f4d03f 51%,
+        #16a085 100%
+      );
+      border:none;
+      margin: 80px auto;
+      cursor: pointer;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+      display: block;
+      border-bottom-right-radius:20px;
+      &:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
